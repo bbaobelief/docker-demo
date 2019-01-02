@@ -1,7 +1,6 @@
 #!/bin/bash 
 
-docker build -t bbaobelief/sanic-app .
+docker build -t sanic-app .
 docker run --name sanic \
--v /usr/src/web \
--p 12000:8000 \
--d bbaobelief/sanic-app python main.py
+-p 8000:8000 \
+-d sanic-app python app.py
