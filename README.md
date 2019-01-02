@@ -1,6 +1,4 @@
-# docker-demo
-docker study
-
+# docker study
 
 ### 编译
 ```
